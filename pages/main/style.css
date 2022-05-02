@@ -299,6 +299,10 @@ header nav ul li a.active {
 .main-our-slider .item {
     background: #FAFAFA;
 }
+.main-our-slider .item:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
 .main-our-slider .item img {
     margin-bottom: 26px;
 }
@@ -315,12 +319,19 @@ header nav ul li a.active {
     margin: 0 auto 30px auto;
     padding: 13px 32px;
 }
+.main-our-slider .item a:hover {
+    background: #F1CDB3;
+}
 .main-our-a {
     width: fit-content;
     margin: 0 auto;
     position: relative;
     top: 2px;
     left: 1px;
+}
+.main-our-a:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background: #FDDCC4;
 }
 .main-help {
     width: 1026px;
@@ -424,6 +435,9 @@ header nav ul li a.active {
 .main-donat-text .card-num h4 {
     font-size: 20px;
     letter-spacing: 0.06em;
+}
+.main-donat-text .card-num h4 a {
+    color: #545454;
 }
 .main-donat-text p {
     font-style: italic;
