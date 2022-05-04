@@ -434,6 +434,9 @@ header nav ul li a.active {
     display: flex;
     margin-bottom: 20px;
 }
+.main-donat-text .card-num:hover {
+    background: #FDDCC4;
+}
 .main-donat-text .card-num svg {
     margin-right: 15px;
     position: relative;
