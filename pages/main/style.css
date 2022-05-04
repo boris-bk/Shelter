@@ -304,6 +304,7 @@ header nav ul li a.active {
 }
 .main-our-slider .item {
     background: #FAFAFA;
+    border-radius: 9px;
 }
 .main-our-slider .item:hover {
     background: #FFFFFF;
@@ -325,7 +326,7 @@ header nav ul li a.active {
     margin: 0 auto 30px auto;
     padding: 13px 32px;
 }
-.main-our-slider .item a:hover {
+.main-our-slider .item:hover > a {
     background: #F1CDB3;
 }
 .main-our-a {
