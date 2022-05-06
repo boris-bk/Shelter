@@ -1,10 +1,10 @@
 var slideIndex = 0;
 showSlides(slideIndex);
 function plusSlide() {
-    showSlides(slideIndex += 1);
+    showSlides(slideIndex++);
 }
 function minusSlide() {
-    showSlides(slideIndex -= 1);
+    showSlides(slideIndex--);
 }
 function showSlides(n) {
     var i;
@@ -18,3 +18,4 @@ function showSlides(n) {
         slides[i].style.display = "block";
     }
 }
+
