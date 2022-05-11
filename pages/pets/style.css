@@ -306,6 +306,7 @@ main .dots a.inactive {
 main .dots a.active {
     background: #F1CDB3 !important;
     border: 2px solid #F1CDB3 !important;
+    cursor: default;
 }
 main .dots a span {
     position: absolute;
